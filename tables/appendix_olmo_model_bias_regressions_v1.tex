@@ -1,0 +1,26 @@
+\begin{table}[p]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{lrrrr}
+\toprule
+Variable & OLMo 3 Base & OLMo 3.1 SFT & OLMo 3.1 DPO & OLMo 3.1 Instruct \\
+\midrule
+Black & 0.020* & -0.004 & -0.002 & -0.001 \\
+ & (0.004) & (0.004) & (0.003) & (0.003) \\
+Female & 0.026* & 0.026* & 0.023* & 0.024* \\
+ & (0.003) & (0.004) & (0.004) & (0.004) \\
+Over 40 & -0.051* & -0.101* & -0.094* & -0.093* \\
+ & (0.004) & (0.004) & (0.004) & (0.005) \\
+$q_t$ & 0.084* & 0.204* & 0.235* & 0.243* \\
+ & (0.030) & (0.040) & (0.046) & (0.048) \\
+$q_s$ & 1.297* & 1.938* & 2.270* & 2.375* \\
+ & (0.128) & (0.177) & (0.202) & (0.208) \\
+$q_d$ & 0.085 & 0.272* & 0.292* & 0.312* \\
+ & (0.053) & (0.075) & (0.084) & (0.087) \\
+\hline
+\end{tabular}
+\caption{Model-specific OLMo hiring-bias estimates from the full specification. Reported terms show the demographic coefficients and quality-control coefficients for each OLMo model version, with standard errors reported in parentheses below each coefficient. Occupation fixed effects are included in each model-specific regression but omitted from the table. Asterisks mark coefficients with $p < 0.05$.}
+\label{tab:appendix-olmo-model-specific-bias}
+\end{table}

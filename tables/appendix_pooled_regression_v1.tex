@@ -1,0 +1,27 @@
+\begin{table}[p]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{lrr}
+\toprule
+Term & Coef. & Std. Err. \\
+\midrule
+Black & -0.003* & 0.001 \\
+Female & 0.020* & 0.001 \\
+Over 40 & -0.021* & 0.001 \\
+Post-train & 0.008 & 0.006 \\
+Black $\times$ Post-train & 0.015* & 0.001 \\
+Female $\times$ Post-train & 0.011* & 0.002 \\
+Over 40 $\times$ Post-train & -0.036* & 0.002 \\
+$q_t$ (title-to-title) & 0.193* & 0.026 \\
+$q_s$ (skill-to-skill) & 1.764* & 0.113 \\
+$q_d$ (title-to-degree) & 0.210* & 0.048 \\
+\midrule
+$R^2$ & \multicolumn{2}{r}{0.148} \\
+$N$ & \multicolumn{2}{r}{121,600} \\
+\hline
+\end{tabular}
+\caption{Compact summary of the pooled hiring regression. Reported terms show the demographic main effects, post-training shift terms, and quality controls. Occupation and model-family fixed effects are included in the pooled model but omitted from the table. Asterisks mark coefficients with $p < 0.05$.}
+\label{tab:appendix-pooled-regression-summary}
+\end{table}

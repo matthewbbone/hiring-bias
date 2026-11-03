@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "format": "gzip-compressed JSON",
+  "exports": {
+    "occupation.json.gz": "SOC code to occupation-conditioned degree, skill, transition, and experience distributions",
+    "vacancy.json.gz": "SOC code to company, title, skill, salary, and occupation-name distributions",
+    "degree_major.json.gz": "Degree major to university choice and frequency distribution",
+    "first_name.json.gz": "Birth year and gender to first-name choice and frequency distributions",
+    "last_name.json.gz": "Surname choices and frequencies"
+  },
+  "choice_distribution": {
+    "CHOICES": "ordered values",
+    "FREQ": "weights corresponding positionally to CHOICES"
+  },
+  "salary_distribution": {
+    "MU": "mean of log annual salary",
+    "SIGMA": "standard deviation of log annual salary"
+  },
+  "notes": [
+    "JSON object keys are strings, including birth-year keys.",
+    "The pickle files remain canonical inputs for the released pipeline."
+  ]
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or its released artifacts, please cite the associated paper."
+type: software
+title: "Monocultural Biases: Hiring-Bias Experiments"
+version: 0.1.0
+date-released: 2026-07-13
+url: "https://github.com/matthewbbone/hiring-bias"
+repository-code: "https://github.com/matthewbbone/hiring-bias"
+license: MIT
+authors:
+  - family-names: Bone
+    given-names: Matthew
+  - family-names: Stephany
+    given-names: Fabian
+  - family-names: del Rio-Chanona
+    given-names: R. Maria
+preferred-citation:
+  type: conference-paper
+  title: "Monocultural Biases: Correlated Biases in Large Language Models Lead to Unequal Systemic Exclusion Rates in Hiring"
+  year: 2026
+  conference:
+    name: "Third Conference on Language Modeling (COLM 2026)"
+  authors:
+    - family-names: Bone
+      given-names: Matthew
+    - family-names: Stephany
+      given-names: Fabian
+    - family-names: del Rio-Chanona
+      given-names: R. Maria

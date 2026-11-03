@@ -1,0 +1,5 @@
+report_group,mean_rsquared,n_models
+base-demographics,0.002802730643236817,10
+base-similarity,0.13080291448191017,10
+post-demographics,0.005535781283631591,10
+post-similarity,0.2777500882172629,10

@@ -1,0 +1,37 @@
+\begin{table}[p]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabular}{lccccccccccr}
+\toprule
+Model & Black (b) & Female (f) & Over 40 (o) & $q_t$ & $q_s$ & $q_d$ & b$\times$f & b$\times$o & f$\times$o & b$\times$f$\times$o & $R^2$ \\
+\midrule
+\multicolumn{12}{l}{\textbf{Base}} \\
+Ernie 4.5 & \cellcolor[HTML]{FEFAF9}-0.01 & \cellcolor[HTML]{FADCD9}-0.06* & \cellcolor[HTML]{FCE8E6}-0.03 & \cellcolor[HTML]{87DAAE}1.09* & \cellcolor[HTML]{74D4A2}9.41* & \cellcolor[HTML]{2EBE73}2.36* & \cellcolor[HTML]{BCEAD2}0.04 & \cellcolor[HTML]{F9D5D1}-0.05 & \cellcolor[HTML]{FFFDFD}-0.00 & \cellcolor[HTML]{D3F1E1}0.02 & 0.447 \\
+Falcon H1 & \cellcolor[HTML]{DBF4E7}0.04 & \cellcolor[HTML]{E4F7ED}0.04 & \cellcolor[HTML]{FAD9D6}-0.05 & \cellcolor[HTML]{C0ECD5}0.57* & \cellcolor[HTML]{90DCB4}7.57* & \cellcolor[HTML]{B4E8CC}0.85* & \cellcolor[HTML]{F6FCF9}0.01 & \cellcolor[HTML]{FEFFFE}0.00 & \cellcolor[HTML]{DDF5E8}0.04 & \cellcolor[HTML]{E3F6ED}0.01 & 0.391 \\
+Gemma 3 & \cellcolor[HTML]{F4B0A9}-0.11* & \cellcolor[HTML]{FBE1DE}-0.05 & \cellcolor[HTML]{F9D0CC}-0.06 & \cellcolor[HTML]{F1FBF6}0.13 & \cellcolor[HTML]{FDFEFD}0.17 & \cellcolor[HTML]{EAF9F1}0.23* & \cellcolor[HTML]{61CE95}0.10 & \cellcolor[HTML]{EFFAF5}0.02 & \cellcolor[HTML]{CCEFDD}0.06 & \cellcolor[HTML]{EB6B5E}-0.09 & 0.024 \\
+GLM 4 & \cellcolor[HTML]{E1F6EB}0.04 & \cellcolor[HTML]{F1FBF5}0.02 & \cellcolor[HTML]{FDEDEB}-0.02 & \cellcolor[HTML]{AAE5C6}0.77* & \cellcolor[HTML]{A1E2C0}6.41* & \cellcolor[HTML]{C2ECD6}0.68* & \cellcolor[HTML]{F6BDB7}-0.05 & \cellcolor[HTML]{F5B8B1}-0.09* & \cellcolor[HTML]{FBE2DF}-0.04 & \cellcolor[HTML]{2EBE73}0.10 & 0.408 \\
+Granite 4 & \cellcolor[HTML]{69D09B}0.18* & \cellcolor[HTML]{87DAAE}0.17* & \cellcolor[HTML]{3AC27B}0.23* & \cellcolor[HTML]{F6FCF9}0.08 & \cellcolor[HTML]{FFFDFD}-0.16 & \cellcolor[HTML]{F5FCF8}0.11 & \cellcolor[HTML]{E74C3C}-0.13 & \cellcolor[HTML]{E74C3C}-0.22* & \cellcolor[HTML]{E74C3C}-0.23* & \cellcolor[HTML]{41C480}0.09 & 0.020 \\
+Ministral 3 & \cellcolor[HTML]{FCE8E6}-0.03 & \cellcolor[HTML]{BEEBD3}0.09* & \cellcolor[HTML]{EF867B}-0.16* & \cellcolor[HTML]{70D39F}1.29* & \cellcolor[HTML]{CAEFDC}3.57* & \cellcolor[HTML]{BEEBD4}0.73* & \cellcolor[HTML]{F08E84}-0.08 & \cellcolor[HTML]{E7F8EF}0.03 & \cellcolor[HTML]{F0FAF5}0.02 & \cellcolor[HTML]{FCE6E4}-0.01 & 0.269 \\
+Moonlight & \cellcolor[HTML]{FADCD9}-0.05 & \cellcolor[HTML]{FDF3F2}-0.02 & \cellcolor[HTML]{F5B6B0}-0.10* & \cellcolor[HTML]{FAFDFB}0.05 & \cellcolor[HTML]{FEFAF9}-0.42 & \cellcolor[HTML]{F8FDFA}0.08 & \cellcolor[HTML]{D5F2E3}0.03 & \cellcolor[HTML]{DFF5EA}0.03 & \cellcolor[HTML]{EEFAF3}0.02 & \cellcolor[HTML]{72D3A0}0.07 & 0.018 \\
+Nemotron Nano 3 & \cellcolor[HTML]{FEF9F9}-0.01 & \cellcolor[HTML]{83D9AC}0.18* & \cellcolor[HTML]{FCE7E5}-0.03 & \cellcolor[HTML]{93DDB7}0.98* & \cellcolor[HTML]{F4FBF7}0.77* & \cellcolor[HTML]{FFFEFE}-0.01 & \cellcolor[HTML]{F5B4AD}-0.05 & \cellcolor[HTML]{FFFBFB}-0.00 & \cellcolor[HTML]{F6BBB5}-0.09 & \cellcolor[HTML]{8FDCB4}0.06 & 0.130 \\
+Olmo 3 & \cellcolor[HTML]{FDF3F2}-0.02 & \cellcolor[HTML]{DDF4E8}0.05* & \cellcolor[HTML]{F7C2BD}-0.08* & \cellcolor[HTML]{A9E4C5}0.78* & \cellcolor[HTML]{CEF0DE}3.34* & \cellcolor[HTML]{E3F6EC}0.31* & \cellcolor[HTML]{EBF9F2}0.01 & \cellcolor[HTML]{EAF8F1}0.02 & \cellcolor[HTML]{FDF3F2}-0.01 & \cellcolor[HTML]{F6BFB9}-0.04 & 0.310 \\
+Qwen 3.5 & \cellcolor[HTML]{FCFEFD}0.00 & \cellcolor[HTML]{FAFDFC}0.01 & \cellcolor[HTML]{EA6456}-0.21* & \cellcolor[HTML]{75D4A3}1.24* & \cellcolor[HTML]{57CB8E}11.44* & \cellcolor[HTML]{9DE1BD}1.10* & \cellcolor[HTML]{E1F6EB}0.02 & \cellcolor[HTML]{FBE4E1}-0.03 & \cellcolor[HTML]{D6F2E4}0.04 & \cellcolor[HTML]{F6BEB8}-0.04 & 0.514 \\
+\midrule
+\multicolumn{12}{l}{\textbf{Post-train}} \\
+Ernie 4.5 & \cellcolor[HTML]{E0F5EA}0.04* & \cellcolor[HTML]{F6FCF9}0.01 & \cellcolor[HTML]{E9594B}-0.22* & \cellcolor[HTML]{E6F7EE}0.23 & \cellcolor[HTML]{5CCC92}11.10* & \cellcolor[HTML]{4EC889}1.99* & \cellcolor[HTML]{FFFEFE}-0.00 & \cellcolor[HTML]{FDF2F1}-0.02 & \cellcolor[HTML]{FCECEB}-0.02 & \cellcolor[HTML]{D9F3E6}0.02 & 0.483 \\
+Falcon H1 & \cellcolor[HTML]{D0F0DF}0.06* & \cellcolor[HTML]{ECF9F2}0.03* & \cellcolor[HTML]{EDFAF3}0.02* & \cellcolor[HTML]{CDEFDD}0.46* & \cellcolor[HTML]{50C98A}11.85* & \cellcolor[HTML]{93DDB7}1.22* & \cellcolor[HTML]{CFF0DF}0.03* & \cellcolor[HTML]{FDEFED}-0.02 & \cellcolor[HTML]{FFFEFE}-0.00 & \cellcolor[HTML]{FEF7F6}-0.00 & 0.541 \\
+Gemma 3 & \cellcolor[HTML]{FAFEFC}0.01 & \cellcolor[HTML]{E0F5EA}0.04* & \cellcolor[HTML]{F6BEB8}-0.09* & \cellcolor[HTML]{A1E2C0}0.85* & \cellcolor[HTML]{6AD19B}10.12* & \cellcolor[HTML]{88DAAF}1.35* & \cellcolor[HTML]{D0F0DF}0.03* & \cellcolor[HTML]{EFFAF4}0.02 & \cellcolor[HTML]{F3FBF7}0.01 & \cellcolor[HTML]{F6BDB7}-0.04* & 0.510 \\
+GLM 4 & \cellcolor[HTML]{E5F7EE}0.03* & \cellcolor[HTML]{E1F6EB}0.04* & \cellcolor[HTML]{F19990}-0.14* & \cellcolor[HTML]{D8F3E5}0.35* & \cellcolor[HTML]{5ECD93}10.90* & \cellcolor[HTML]{B1E7CB}0.88* & \cellcolor[HTML]{FDEEEC}-0.01 & \cellcolor[HTML]{FDFEFE}0.00 & \cellcolor[HTML]{F2FBF6}0.01 & \cellcolor[HTML]{FBE1DE}-0.02 & 0.512 \\
+Granite 4 & \cellcolor[HTML]{E3F6EC}0.03* & \cellcolor[HTML]{CDEFDD}0.07* & \cellcolor[HTML]{F8C8C3}-0.07* & \cellcolor[HTML]{96DEB9}0.95* & \cellcolor[HTML]{41C480}12.91* & \cellcolor[HTML]{89DAB0}1.33* & \cellcolor[HTML]{ECF9F2}0.01 & \cellcolor[HTML]{FFFEFE}-0.00 & \cellcolor[HTML]{F7FCF9}0.01 & \cellcolor[HTML]{FFFBFB}-0.00 & 0.526 \\
+Ministral 3 & \cellcolor[HTML]{FBFEFC}0.00 & \cellcolor[HTML]{D9F3E5}0.05* & \cellcolor[HTML]{F4B0A9}-0.11* & \cellcolor[HTML]{DFF5E9}0.29 & \cellcolor[HTML]{51C98B}11.78* & \cellcolor[HTML]{40C47F}2.15* & \cellcolor[HTML]{CFF0DF}0.03 & \cellcolor[HTML]{FFFFFF}-0.00 & \cellcolor[HTML]{FEFFFE}0.00 & \cellcolor[HTML]{FFFCFB}-0.00 & 0.498 \\
+Moonlight & \cellcolor[HTML]{2EBE73}0.25* & \cellcolor[HTML]{2EBE73}0.30* & \cellcolor[HTML]{E74C3C}-0.24* & \cellcolor[HTML]{2EBE73}1.89* & \cellcolor[HTML]{CBEFDC}3.55* & \cellcolor[HTML]{D5F2E3}0.47 & \cellcolor[HTML]{ED786C}-0.09* & \cellcolor[HTML]{F5FCF8}0.01 & \cellcolor[HTML]{FDEFED}-0.02 & \cellcolor[HTML]{A4E3C2}0.05 & 0.309 \\
+Nemotron Nano 3 & \cellcolor[HTML]{CCEFDD}0.06* & \cellcolor[HTML]{7FD7A9}0.18* & \cellcolor[HTML]{F1968C}-0.14* & \cellcolor[HTML]{8FDCB4}1.01* & \cellcolor[HTML]{5ACC90}11.21* & \cellcolor[HTML]{8BDBB1}1.31* & \cellcolor[HTML]{FEFFFF}0.00 & \cellcolor[HTML]{FBE5E2}-0.03 & \cellcolor[HTML]{F7C0BB}-0.08* & \cellcolor[HTML]{9EE1BE}0.05 & 0.472 \\
+Olmo 3 & \cellcolor[HTML]{E3F6EC}0.03* & \cellcolor[HTML]{FEF7F6}-0.01 & \cellcolor[HTML]{ED7A6E}-0.18* & \cellcolor[HTML]{86D9AE}1.09* & \cellcolor[HTML]{7BD6A7}8.93* & \cellcolor[HTML]{A3E2C1}1.04* & \cellcolor[HTML]{FFFDFD}-0.00 & \cellcolor[HTML]{FEF5F4}-0.01 & \cellcolor[HTML]{FDEFED}-0.02 & \cellcolor[HTML]{D5F2E3}0.02 & 0.517 \\
+Qwen 3.5 & \cellcolor[HTML]{FCFEFD}0.00 & \cellcolor[HTML]{EFFAF4}0.02 & \cellcolor[HTML]{EF867B}-0.16* & \cellcolor[HTML]{A9E4C6}0.77* & \cellcolor[HTML]{2EBE73}14.19* & \cellcolor[HTML]{AAE5C6}0.96* & \cellcolor[HTML]{FCFEFD}0.00 & \cellcolor[HTML]{FADCD9}-0.04 & \cellcolor[HTML]{FBFEFC}0.00 & \cellcolor[HTML]{D5F2E3}0.02 & 0.543 \\
+\hline
+\end{tabular}
+\caption{Model-specific hiring regressions from the demographic-interactions specification. Deeper green cells indicate larger positive coefficients and deeper red cells indicate larger negative coefficients within each column. Asterisks mark coefficients with $p < 0.05$.}
+\label{tab:appendix-model-specific-regressions-interactions}
+\end{table}

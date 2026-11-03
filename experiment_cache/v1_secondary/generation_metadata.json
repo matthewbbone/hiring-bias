@@ -1,0 +1,7 @@
+{
+  "version": "v1_secondary",
+  "seed": null,
+  "n_exp_per_soc": 10,
+  "historical_cache": true,
+  "note": "The original generation seed was not recorded."
+}
